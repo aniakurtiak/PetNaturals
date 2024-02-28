@@ -44,7 +44,7 @@ body {
 .main-page {
   background: rgba(0, 0, 0, 0.3);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/green-grass.webp);
+    url(../images/green-grass.webp);
   width: 1920px;
   height: 844px;
   margin: 0 auto;
