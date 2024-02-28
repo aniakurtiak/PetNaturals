@@ -19,7 +19,7 @@
 (min-resolution: 2dppx) and (min-width: 1200px) {
     .main-page {
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-            url(/images//green-grass@2x.webp);
+            url(/images/green-grass@2x.webp);
     }
 }
 
@@ -33,7 +33,7 @@
 (min-resolution: 192dpi) and (min-width: 1200px),
 (min-resolution: 2dppx) and (min-width: 1200px) {
     .main-page {
-        background-image: url(/images//paws@2x.webp);
+        background-image: url(/images/paws@2x.webp);
     }
 }
 /** ----------/MANUFACTURE INFO--------------- */
