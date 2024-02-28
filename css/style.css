@@ -213,7 +213,7 @@ body {
   width: 270px;
   height: 190px;
   font-weight: 700;
-  background-image: url(/images/icons/rectangle.svg);
+  background-image: url(../images/icons/rectangle.svg);
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
