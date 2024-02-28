@@ -1,12 +1,12 @@
-/* :root {} */
-
-/* Resetting default styles */
-.list {
-    list-style: none;
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --transition-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link {
-    text-decoration: none;
+/* Resetting default styles */
+
+link {
+  text-decoration: none;
 }
 
 h1,
@@ -14,26 +14,334 @@ h2,
 h3,
 h4,
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* Inheriting*/
-/* body {
-    font-family: var(--primary-font);
-    color: var(--primary-text-color);
+
+body {
+  font-family: var(--primary-font);
+}
+
+/*! ------------------ MAIN PAGE -----------------------*/
+
+.main-page {
+  background: rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/green-grass.webp);
+  width: 1920px;
+  height: 844px;
+  margin: 0 auto;
+  padding-top: 23px;
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-page-container {
+  width: 1179px;
+  margin: 0 auto;
+}
+
+/**------------ HEADER--------------- */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  background-image: url(/images/icons/cloud.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 329px;
+  height: 113px;
+  padding: 12px 20px 12px 26px;
+}
+
+.menu-container {
+  background-image: url(/images/icons/cloud-2.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 446px;
+  height: 102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  gap: 51px;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.menu-link {
+  color: #715d00;
+}
+
+/**------------ /HEADER--------------- */
+
+.main-page-content-container {
+  padding-right: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 52px;
+  text-align: center;
+  width: 578px;
+  color: #f9e994;
+  margin-top: 20px;
+}
+
+.main-page-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+/**-------- INFO----------- */
+
+.main-info {
+  margin-top: 42px;
+}
+
+.text-info {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.31;
+  color: #f6f7e4;
+  width: 439px;
+}
+
+.main-list {
+  margin-top: 60px;
+  border-radius: 20px;
+  width: 323px;
+  background: #7fb3e1;
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-bottom: 38px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #dfe4de;
+}
+
+.main-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.main-list-item:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.main-list-item:nth-child(2) {
+  margin-bottom: 17px;
+}
+
+.main-list-item:nth-child(3) {
+  width: 250px;
+}
+
+/**-------- INFO----------- */
+
+.image-container {
+  position: absolute;
+  z-index: 100;
+  margin-top: 62px;
+  margin-left: 238px;
+  /* display: flex;
+ justify-content: center;
+ align-items: center; */
+}
+
+/* .cats{
+    position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 } */
+
+/**-------- ORDER ---------- */
+
+.order-container {
+  margin-top: 8px;
+  border-radius: 20px 20px 10px 10px;
+  width: 270px;
+  height: 462px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #fdfcfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-container {
+  width: 270px;
+  height: 190px;
+  font-weight: 700;
+  background-image: url(/images/icons/rectangle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-title {
+  font-size: 33px;
+  color: #483c08;
+  margin-bottom: 8px;
+}
+
+.timer {
+  font-size: 36px;
+  color: #f6e791;
+  margin-bottom: 3px;
+}
+
+.price-container {
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: 222px;
+}
+
+.line {
+  border: 1px solid #f6be91;
+  width: 110px;
+  height: 0px;
+  transform: rotate(163deg);
+  position: absolute;
+  bottom: 60%;
+  left: 0;
+}
+
+.height-price {
+  font-size: 30px;
+  color: #6b6b6b;
+}
+
+.low-price {
+  font-size: 36px;
+  color: #483c08;
+}
+
+.form {
+  margin-top: 21px;
+  width: 222px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.form-field {
+  display: flex;
+}
+
+.input {
+  border-radius: 30px;
+  background-color: rgba(243, 239, 239, 0.9);
+  border: none;
+  height: 50px;
+  padding-left: 52px;
+  box-shadow: none;
+  transition: border-color var(--transition-dur-func);
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #a1d337;
+}
+
+.input-img {
+  position: absolute;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 13px;
+}
+
+.input::placeholder {
+  font-weight: 700;
+  font-size: 16px;
+  color: #777;
+}
+
+.form-btn {
+  border-radius: 30px;
+  background-color: #a1d337;
+  width: 222px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  border: none;
+}
+
+.order-date {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #444;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+/**-------- ORDER ---------- */
+
+/*! ------------------ /MAIN PAGE -----------------------*/
+
+/* ! ------------------ MANUFACTURE INFO ----------------- */
+
+.manufacture-container {
+  width: 1783px;
+  height: 671px;
+  padding-top: 52px;
+  padding-left: 66px;
+  padding-right: 71px;
+  padding-bottom: 38px;
+  background-image: url(/images/paws.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ! ------------------ /MANUFACTURE INFO ----------------- */
