@@ -44,7 +44,7 @@ body {
 .main-page {
   background: rgba(0, 0, 0, 0.3);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/green-grass.webp);
+    url(../images/background-img.webp);
   width: 1920px;
   height: 844px;
   margin: 0 auto;
@@ -338,21 +338,20 @@ body {
   padding-left: 66px;
   padding-right: 71px;
   padding-bottom: 38px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   margin: 0 auto;
 }
 
 .manucacture-container {
-    background-image: url(../images/paws.webp);
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+  background-image: url(../images/paws.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 48px;
   padding-bottom: 101px;
-
 }
 
 .manufacture-title {
@@ -363,11 +362,10 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 .manufacture-list {
-    width: 1084px;
+  width: 1084px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -421,3 +419,26 @@ body {
 }
 
 /* ! ------------------ /MANUFACTURE INFO ----------------- */
+
+/* ! ------------------ BEST USES----------------- */
+
+.best-uses {
+  background: rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+      180deg,
+      #e1edf8 0%,
+      rgba(127, 179, 225, 0) 59.38%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    url(../images/grass.webp);
+  width: 1920px;
+  height: 844px;
+  margin: 0 auto;
+  padding-top: 23px;
+  padding-bottom: 100px;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* ! ------------------ /BEST USES----------------- */
