@@ -42,17 +42,17 @@ body {
 /*! ------------------ MAIN PAGE -----------------------*/
 
 .main-page {
+  width: 1920px;
+  height: 844px;
   background: rgba(0, 0, 0, 0.3);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/background-img.webp);
-  width: 1920px;
-  height: 844px;
-  margin: 0 auto;
-  padding-top: 23px;
-  padding-bottom: 100px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 23px;
+  padding-bottom: 100px;
 }
 
 .main-page-container {
@@ -182,17 +182,7 @@ body {
   z-index: 100;
   margin-top: 62px;
   margin-left: 238px;
-  /* display: flex;
- justify-content: center;
- align-items: center; */
 }
-
-/* .cats{
-    position: absolute;
- display: flex;
- justify-content: center;
- align-items: center;
-} */
 
 /**-------- ORDER ---------- */
 
@@ -346,12 +336,11 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 1783px;
+  height: 671px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding-top: 48px;
-  padding-bottom: 101px;
 }
 
 .manufacture-title {
@@ -362,6 +351,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: 48px;
 }
 
 .manufacture-list {
@@ -370,6 +360,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 60px;
+  margin-bottom: 63px;
 }
 
 .manufacture-item {
@@ -423,7 +414,8 @@ body {
 /* ! ------------------ BEST USES----------------- */
 
 .best-uses {
-  background: rgba(0, 0, 0, 0.3);
+  width: 1920px;
+  height: 844px;
   background-image: linear-gradient(
       180deg,
       #e1edf8 0%,
@@ -431,14 +423,59 @@ body {
       rgba(0, 0, 0, 0.25) 100%
     ),
     url(../images/grass.webp);
-  width: 1920px;
-  height: 844px;
-  margin: 0 auto;
-  padding-top: 23px;
-  padding-bottom: 100px;
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
+  padding-left: 428px;
+  padding-right: 413px;
+  padding-top: 99px;
+  padding-bottom: 197px;
+  margin: 0 auto;
 }
+
+.best-uses-container {
+  width: 1088px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.best-uses-title{
+font-weight: 700;
+font-size: 52px;
+color: #537d13;
+margin-bottom: 58px;
+}
+
+.best-uses-block{
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+}
+
+.best-uses-info{
+  background-image: url(../images/icons/rectangle-2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 760px;
+  height: 354px;
+  padding-top:40px ;
+  padding-right: 98px;
+  padding-bottom: 41px;
+  padding-left: 40px;
+}
+
+.best-uses-info-text{
+font-weight: 400;
+font-size: 18px;
+line-height: 128%;
+color: #483c08;
+}
+
+
+
+
+
 
 /* ! ------------------ /BEST USES----------------- */
