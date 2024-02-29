@@ -15,6 +15,7 @@
 
   <body>
     <!------ MAIN PAGE --------->
+
     <section class="main-page">
       <div class="main-page-container">
         <header class="header-container">
@@ -86,10 +87,10 @@
                 srcset="./images/cats@2x.webp 2x"
               />
             </div>
-            <div  id="order-form"class="order-container">
+            <div id="order-form" class="order-container">
               <div class="time-container">
                 <h3 class="time-title">TIME LEFT</h3>
-                <p class="timer">2:00:00</p>
+                <p class="timer"></p>
                 <div class="price-container">
                   <div class="line"></div>
                   <p class="height-price">120uah</p>
@@ -111,6 +112,7 @@
                     type="text"
                     name="name"
                     placeholder="Name"
+                    required
                   />
                 </div>
                 <div class="form-field">
@@ -122,7 +124,14 @@
                     width="24"
                     height="24"
                   />
-                  <input class="input" type="tel" name="phone" />
+                  <input
+                    class="input"
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="+38(0__)___-__-__"
+                    required
+                  />
                 </div>
                 <button class="form-btn">ORDER</button>
               </form>
@@ -225,6 +234,8 @@
         </div>
       </div>
     </section>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
 <!--  -->

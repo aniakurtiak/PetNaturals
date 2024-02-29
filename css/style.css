@@ -283,6 +283,9 @@ background-size: auto;
   height: 50px;
   padding-left: 52px;
   box-shadow: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #777;
   transition: border-color var(--transition-dur-func);
 }
 
