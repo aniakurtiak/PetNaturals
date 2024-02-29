@@ -1,49 +1,215 @@
+@media screen and (min-width: 320px) {
+  .main-page {
+    width: 380px;
+  }
+
+  .main-page-container {
+    width: 340px;
+  }
+
+  .manufacture {
+    width: 380px;
+  }
+
+  .manucacture-container {
+    width: 340px;
+  }
+
+.best-uses {
+    width: 380px;
+}
+
+.best-uses-container {
+   width: 340px;
+  }
+  
+
+}
+
 /* !----------------------TABLET------------------ */
+
+@media screen and (min-width: 768px) {
+}
 
 /* !----------------------/TABLET------------------ */
 
-
-
-
-
-
-
-
-
 /* !----------------------DESKTOP------------------ */
 
-/** ----------MAIN PAGE--------------- */
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-(min-resolution: 192dpi) and (min-width: 1200px),
-(min-resolution: 2dppx) and (min-width: 1200px) {
-    .main-page {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-            url(../images/background-img2x.webp);
-    }
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1140x),
+  (min-resolution: 192dpi) and (min-width: 1140px),
+  (min-resolution: 2dppx) and (min-width: 1140px) {
+  .main-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../images/background-img2x.webp);
+  }
 }
 
-/** ----------/MAIN PAGE--------------- */
-
-
-
-/** ----------MANUFACTURE INFO--------------- */
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-(min-resolution: 192dpi) and (min-width: 1200px),
-(min-resolution: 2dppx) and (min-width: 1200px) {
-    .main-page {
-        background-image: url(../images/paws@2x.webp);
-    }
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1140px),
+  (min-resolution: 192dpi) and (min-width: 1140px),
+  (min-resolution: 2dppx) and (min-width: 1140px) {
+  .manucacture-container {
+    background-image: url(../images/paws@2x.webp);
+  }
 }
-/** ----------/MANUFACTURE INFO--------------- */
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1140px),
+  (min-resolution: 192dpi) and (min-width: 1140px),
+  (min-resolution: 2dppx) and (min-width: 1140px) {
+  .best-uses  {
+    background-image: url(../images/grass@2x.webp);
+  }
+}
 
 
+@media screen and (min-width: 1140px) {
+  .main-page {
+    width: 1920px;
+    height: 844px;
+  }
+
+  .main-page-container {
+    width: 1179px;
+  }
+
+  /**------------ HEADER--------------- */
+
+  .header-container {
+    justify-content: space-between;
+  }
+
+  .menu-container {
+    width: 446px;
+    height: 102px;
+  }
+
+  .menu-list {
+    gap: 51px;
+  }
+
+  /** ----------MAIN PAGE--------------- */
+
+  .title {
+    font-size: 52px;
+    width: 578px;
+    margin-top: 20px;
+  }
+
+  .main-page-content-container {
+    padding-right: 37px;
+  }
+
+  .main-page-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .main-info {
+    margin-top: 42px;
+  }
+
+  .text-info {
+    font-size: 26px;
+    width: 439px;
+  }
+
+  .main-list {
+    margin-top: 60px;
+  }
+
+  .image-container {
+    position: absolute;
+    z-index: 100;
+    margin-top: 62px;
+    margin-left: 238px;
+  }
+
+  .cats {
+    width: 710px;
+    height: 417px;
+  }
+
+  /** ----------MANUFACTURE INFO--------------- */
+
+  .manufacture {
+    width: 1920px;
+    height: 761px;
+    padding-top: 52px;
+    padding-left: 66px;
+    padding-right: 71px;
+    padding-bottom: 38px;
+  }
+
+  .manucacture-container {
+    width: 1783px;
+    height: 671px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .manufacture-title {
+    font-size: 52px;
+  }
+
+  .manufacture-list {
+    width: 1084px;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 63px;
+    
+  }
+
+  /** ----------BEST USES------------- */
+  .best-uses {
+    width: 1920px;
+    height: 844px;
+    padding-left: 428px;
+    padding-right: 413px;
+    padding-top: 99px;
+    padding-bottom: 197px;
+  }
+  
+  .best-uses-container {
+    width: 1088px;
+  }
+  
+  .best-uses-title {
+    font-size: 52px;
+    margin-bottom: 58px;
+    margin-top: 0;
+  }
+
+  .best-uses-block {
+    display: flex;
+  flex-wrap: nowrap;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .best-uses-info {
+    background-image: url(../images/icons/rectangle-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 354px;
+    padding-top: 40px;
+    padding-right: 98px;
+    padding-bottom: 41px;
+    padding-left: 40px;
+    margin-left: 0;
+  }
+
+  .best-uses-info-text {
+    width: 100%;
+    font-size: 18px;
+    line-height: 128%;
+    color: #483c08;
+  }
 
 
+}
 /* !----------------------/DESKTOP------------------ */
-
-
-
-
-
