@@ -102,7 +102,13 @@ body {
 
 .menu-link {
   color: #715d00;
+  transition: color var(--transition-dur-func);
 }
+
+.menu-link:is(:hover, :focus) {
+  color: #7fb3e1;
+}
+
 
 /**------------ /HEADER--------------- */
 
@@ -300,14 +306,23 @@ background-size: auto;
 
 .form-btn {
   border-radius: 30px;
-  background-color: #a1d337;
+  background-color: #b7d870;
   width: 222px;
   height: 50px;
   font-weight: 700;
   font-size: 30px;
   color: #fff;
   border: none;
+  transition: background var(--transition-dur-func);
 }
+
+
+.form-btn:is(:hover, :focus) {
+  background: #7fb3e1;
+}
+
+
+
 
 .order-date {
   margin-top: 30px;
