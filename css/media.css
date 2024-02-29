@@ -57,21 +57,22 @@
     font-size: 52px;
     width: 578px;
     margin-top: 80px;
+    margin-bottom: 50px;
   }
 
   .main-page-content {
     width: 100%;
-    display: block;
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
     justify-content: center;
     align-items: center;
     position: relative;
   }
 
   .main-info {
-    margin-top: 42px;
     width: 250px;
+    margin-top: 450px;
 
   }
 
@@ -89,31 +90,19 @@
   }
 
   .cats {
-    width: 500px;
-    height: 350px;
+    width: 710px;
+    height: 417px;
   }
-  
+
   .image-container {
     position: absolute;
     z-index: 100;
-    top: 10%;
-    right: 0;
+    top: 0;
   }
 
   .order-container {
-    margin-left: 220px;
-    margin-top: 8px;
-    border-radius: 20px 20px 10px 10px;
-    width: 270px;
-    height: 462px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background: #fdfcfc;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 450px;
   }
-
 
   .best-uses {
     padding-bottom: 60px;
@@ -182,8 +171,6 @@
   }
 
   .main-page-content {
-    width: 100%;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -199,6 +186,7 @@
 
   .title {
     margin-top: 20px;
+    margin-bottom: 0;
   }
 
   .text-info {
@@ -211,32 +199,19 @@
   }
 
   .main-list {
-    margin-top: 30px;
-    border-radius: 20px;
     width: 323px;
     background: #7fb3e1;
-    padding-top: 35px;
     padding-left: 35px;
-    padding-bottom: 38px;
-    font-weight: 700;
-    font-size: 22px;
-    color: #dfe4de;
   }
 
   .image-container {
-    position: absolute;
-    z-index: 100;
     margin-top: 62px;
     margin-left: 238px;
-    top: auto;
-    right: auto;
   }
 
-  .cats {
-    width: 710px;
-    height: 417px;
+  .order-container {
+    margin-top: 8px;
   }
-
   /** ----------MANUFACTURE INFO--------------- */
 
   .manufacture {

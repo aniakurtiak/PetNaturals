@@ -207,12 +207,14 @@ body {
   font-weight: 700;
   background-image: url(../images/icons/rectangle.svg);
   background-position: center;
+background-size: auto;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 
 .time-title {
   font-size: 33px;
