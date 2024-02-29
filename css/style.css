@@ -115,7 +115,7 @@ body {
 
 .title {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 38px;
   text-align: center;
   width: 350px;
   color: #f9e994;
@@ -424,6 +424,7 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 30px;
 }
 
 .best-uses-container {

@@ -1,6 +1,6 @@
 @media screen and (min-width: 320px) {
   .main-page {
-    width: 380px;
+    width: 767x;
   }
 
   .main-page-container {
@@ -15,23 +15,113 @@
     width: 340px;
   }
 
-.best-uses {
+  .best-uses {
     width: 380px;
-}
-
-.best-uses-container {
-   width: 340px;
   }
-  
 
+  .best-uses-container {
+    width: 340px;
+  }
 }
 
 /* !----------------------TABLET------------------ */
 
 @media screen and (min-width: 768px) {
+  .main-page {
+    width: 760px;
+  }
+
+  .main-page-container {
+    width: 740px;
+  }
+
+  .manufacture {
+    width: 760px;
+  }
+
+  .manucacture-container {
+    width: 740px;
+  }
+
+  .best-uses {
+    width: 760px;
+  }
+
+  .best-uses-container {
+    width: 740px;
+  }
+
+  /** ----------MAIN PAGE--------------- */
+  
+.title {
+    font-size: 52px;
+    width: 578px;
+    margin-top: 80px;
+  }
+
+  .main-page-content {
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .main-info {
+    margin-top: 42px;
+    width: 250px;
+
+  }
+
+  .main-list {
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 250px;
+    background: #7fb3e1;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-bottom: 38px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #dfe4de;
+  }
+
+  .cats {
+    width: 500px;
+    height: 350px;
+  }
+  
+  .image-container {
+    position: absolute;
+    z-index: 100;
+    top: 10%;
+    right: 0;
+  }
+
+  .order-container {
+    margin-left: 220px;
+    margin-top: 8px;
+    border-radius: 20px 20px 10px 10px;
+    width: 270px;
+    height: 462px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #fdfcfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .best-uses {
+    padding-bottom: 60px;
+  }
 }
 
 /* !----------------------/TABLET------------------ */
+
 
 /* !----------------------DESKTOP------------------ */
 
@@ -55,11 +145,10 @@
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1140px),
   (min-resolution: 192dpi) and (min-width: 1140px),
   (min-resolution: 2dppx) and (min-width: 1140px) {
-  .best-uses  {
+  .best-uses {
     background-image: url(../images/grass@2x.webp);
   }
 }
-
 
 @media screen and (min-width: 1140px) {
   .main-page {
@@ -88,13 +177,7 @@
 
   /** ----------MAIN PAGE--------------- */
 
-  .title {
-    font-size: 52px;
-    width: 578px;
-    margin-top: 20px;
-  }
-
-  .main-page-content-container {
+ .main-page-content-container {
     padding-right: 37px;
   }
 
@@ -107,8 +190,15 @@
     position: relative;
   }
 
+
   .main-info {
     margin-top: 42px;
+    width: 323px;
+
+  }
+
+  .title {
+    margin-top: 20px;
   }
 
   .text-info {
@@ -120,11 +210,26 @@
     margin-top: 60px;
   }
 
+  .main-list {
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 323px;
+    background: #7fb3e1;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-bottom: 38px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #dfe4de;
+  }
+
   .image-container {
     position: absolute;
     z-index: 100;
     margin-top: 62px;
     margin-left: 238px;
+    top: auto;
+    right: auto;
   }
 
   .cats {
@@ -159,7 +264,6 @@
     justify-content: space-between;
     margin-top: 60px;
     margin-bottom: 63px;
-    
   }
 
   /** ----------BEST USES------------- */
@@ -171,11 +275,11 @@
     padding-top: 99px;
     padding-bottom: 197px;
   }
-  
+
   .best-uses-container {
     width: 1088px;
   }
-  
+
   .best-uses-title {
     font-size: 52px;
     margin-bottom: 58px;
@@ -184,12 +288,12 @@
 
   .best-uses-block {
     display: flex;
-  flex-wrap: nowrap;
+    flex-wrap: nowrap;
     gap: 28px;
     align-items: center;
     justify-content: center;
   }
-  
+
   .best-uses-info {
     background-image: url(../images/icons/rectangle-2.svg);
     background-size: contain;
@@ -209,7 +313,5 @@
     line-height: 128%;
     color: #483c08;
   }
-
-
 }
 /* !----------------------/DESKTOP------------------ */
