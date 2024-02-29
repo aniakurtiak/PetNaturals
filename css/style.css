@@ -331,17 +331,93 @@ body {
 
 /* ! ------------------ MANUFACTURE INFO ----------------- */
 
-.manufacture-container {
-  width: 1783px;
-  height: 671px;
+.manufacture {
+  width: 1920px;
+  height: 761px;
   padding-top: 52px;
   padding-left: 66px;
   padding-right: 71px;
   padding-bottom: 38px;
-  background-image: url(/images/paws.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.manucacture-container {
+    background-image: url(../images/paws.webp);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  padding-top: 48px;
+  padding-bottom: 101px;
+
+}
+
+.manufacture-title {
+  font-weight: 700;
+  font-size: 52px;
+  text-align: center;
+  background: linear-gradient(180deg, #f9e994 0%, #537d13 56.25%, #483c08 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.manufacture-list {
+    width: 1084px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.manufacture-item {
+  border-radius: 20px;
+  width: 305px;
+  height: 439px;
+  box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.25);
+  background: #f6e791;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.manufacture-info {
+  border-radius: 20px;
+  width: 275px;
+  height: 218px;
+  background: rgba(161, 211, 55, 0.4);
+  margin-bottom: 15px;
+  padding: 16px;
+}
+
+.plant-img {
+  margin-top: 25px;
+}
+
+.feed-img {
+  margin-top: 14px;
+}
+
+.manufact-info-title {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 19px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.manufact-info-text {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #483c08;
 }
 
 /* ! ------------------ /MANUFACTURE INFO ----------------- */
