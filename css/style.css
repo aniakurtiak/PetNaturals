@@ -196,6 +196,7 @@ body {
 
 .order-container {
   margin-top: 8px;
+
   border-radius: 20px 20px 10px 10px;
   width: 270px;
   height: 462px;
@@ -205,6 +206,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
 
 .time-container {
@@ -324,17 +328,14 @@ background-size: auto;
   background: #7fb3e1;
 }
 
-
-
-
 .order-date {
   margin-top: 30px;
-  margin-bottom: 20px;
+  height: 20px;
   font-weight: 400;
   font-size: 18px;
   text-align: center;
   color: #444;
-  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  text-shadow: 4 4px 14px 0 rgba(0, 0, 0, 0.5);
 }
 
 /**-------- ORDER ---------- */

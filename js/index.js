@@ -18,9 +18,29 @@ function updateTimer() {
 updateTimer();
 
 
+// -------------------------------------------------------
+
 const phoneMack = document.getElementById('phone');
 
 IMask(
     phoneMack,
     {mask: '+{38}(\\000) 000-00-00'}
 );
+
+// ----------------------------------------------------------
+
+const orderForm = document.querySelector('.form')
+const orderDate = document.querySelector('.order-date');
+
+orderForm.addEventListener('submit', handlerSubmit)
+
+function handlerSubmit() {
+    event.preventDefault();
+    const today = new Date();
+    const day = today.getDate();
+    const month = today.getMonth() + 1;
+    const year = today.getFullYear();
+ const formattedDate = `${String(day).padStart(2, '0')}.${String(month).padStart(2, '0')}.${year}`;
+ orderDate.textContent= `Order date: ${formattedDate}`
+}
+
