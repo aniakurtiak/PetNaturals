@@ -3,9 +3,9 @@
     width: 767x;
   }
 
-  .main-page-container {
+  /* .main-page-container {
     width: 340px;
-  }
+  } */
 
   .manufacture {
     width: 380px;
@@ -32,7 +32,7 @@
   }
 
   .main-page-container {
-    width: 740px;
+    min-width: 740px;
   }
 
   .manufacture {
@@ -70,11 +70,14 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .main-info {
     width: 250px;
     margin-top: 450px;
+    display: block;
 
   }
 
@@ -148,7 +151,7 @@
   }
 
   .main-page-container {
-    width: 1179px;
+    min-width: 1179px;
   }
 
   /**------------ HEADER--------------- */

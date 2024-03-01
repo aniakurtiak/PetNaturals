@@ -55,6 +55,7 @@ body {
 
 .main-page-container {
   margin: 0 auto;
+  max-width: 767px;
   /* padding-left: 15px;
   padding-right: 15px; */
 }
@@ -117,13 +118,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .title {
   font-weight: 700;
   font-size: 38px;
   text-align: center;
-  width: 350px;
+  max-width: 578px;
   color: #f9e994;
   margin-top: 70px;
 }
@@ -134,8 +136,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
   gap: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /**-------- INFO----------- */
@@ -143,6 +146,11 @@ body {
 .main-info {
   width: 100%;
   margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .text-info {
