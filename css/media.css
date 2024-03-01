@@ -129,7 +129,7 @@
 
 @media screen and (min-width: 1140px) {
   .main-page {
-    width: 1920px;
+    max-width: 1920px;
     height: 844px;
   }
 
@@ -210,7 +210,7 @@ gap: 20px;
   /** ----------MANUFACTURE INFO--------------- */
 
   .manufacture {
-    width: 1920px;
+    max-width: 1920px;
     height: 761px;
     padding-left: 48px;
     padding-right: 71px;
@@ -220,7 +220,7 @@ gap: 20px;
   }
 
   .manucacture-container {
-    width: 1783px;
+    max-width: 1783px;
     height: 671px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,7 +240,7 @@ gap: 20px;
 
   /** ----------BEST USES------------- */
   .best-uses {
-    width: 1920px;
+    max-width: 1920px;
     height: 770px;
     padding-left: 368px;
     padding-right: 413px;
@@ -249,7 +249,7 @@ gap: 20px;
   }
 
   .best-uses-container {
-    width: 1088px;
+    max-width: 1088px;
   }
 
   .best-uses-title {
