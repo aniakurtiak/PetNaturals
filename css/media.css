@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 768px) {
   .main-page {
-    width: 760px;
+    min-width: 768px;
   }
 
   .main-page-container {
@@ -36,21 +36,21 @@
   }
 
   .manufacture {
-    width: 760px;
+    min-width: 768px;
   }
 
   .manucacture-container {
     width: 740px;
-    /* padding-left: 352px;
-    padding-right: 347px; */
+    margin: 0 auto;
   }
 
   .best-uses {
-    width: 760px;
+    min-width: 768px;
   }
 
   .best-uses-container {
     width: 740px;
+    margin: 0 auto;
   }
 
   /** ----------MAIN PAGE--------------- */
@@ -66,12 +66,13 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
     position: relative;
     padding-left: 0;
     padding-right: 0;
+    gap: 40px;
   }
 
   .main-info {
@@ -79,6 +80,10 @@
     margin-top: 450px;
     display: block;
 
+  }
+
+  .text-info{
+    text-align: start;
   }
 
   .main-list {
@@ -186,6 +191,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+gap: 20px;
   }
 
 
